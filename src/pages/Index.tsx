@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { Book, Info, RuleIcon, Shield } from "lucide-react";
+import { Book, Info, BookOpen, Shield } from "lucide-react";
 
 const Index = () => {
   return (
@@ -10,7 +10,7 @@ const Index = () => {
       <header className="bg-primary py-8">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-primary-foreground flex items-center gap-2">
-            <RuleIcon size={32} /> Правила проекта
+            <BookOpen size={32} /> Правила проекта
           </h1>
           <p className="text-primary-foreground/80 mt-2 max-w-2xl">
             Здесь собраны все правила и важная информация для участников проекта
